@@ -4,7 +4,11 @@ public class EmployeePayRoll {
 
 	public static void main(String[] args) {
 
-		System.out.println("Wlcome to jdbcprogram...!");
+		System.out.println("Welcome to jdbcprogram...!");
+		
+		EmployeeConfig eConfig = new EmployeeConfig();
+	        eConfig.getConfig();
+	    
 	}
 
 }
